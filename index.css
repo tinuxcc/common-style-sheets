@@ -1,98 +1,15 @@
-/**
- * CSS 初始化
- */
-html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
-    margin: 0;
-    padding: 0;
-}
-
-/* fieldset 组合表单中的相关元素 */
-fieldset, img, input, button {
-    border: none;
-    padding: 0;
-    margin: 0;
-    outline-style: none;
-}
-
-/* 清除列表风格 */
-ul, ol {
-    list-style: none;
-}
-
-input {
-    padding-top: 0;
-    padding-bottom: 0;
-    font-family: "Microsoft Yahei", "SimSun", "宋体", serif;
-}
-
-select, input {
-    vertical-align: middle;
-}
-
-select, input, textarea {
-    font-size: 14px;
-    margin: 0;
-}
-
-/* 防止多行文本框拖动 */
-textarea {
-    resize: none;
-}
-
-/* 去掉图片低测默认的3像素空白缝隙 */
-img {
-    border: 0;
-    vertical-align: middle;
-}
-
-/* 合并外边线 */
-table {
-    border-collapse: collapse;
-}
+/* 初始化样式 */
+@import "./init.css";
+/* 复制的 tailwind css */
+@import "./tailwind.css";
 
 /**
- * 设置所有元素为 box-sizing: border-box;
- * 已有 box-sizing 属性的元素不生效（防止第三方插件内的 box-sizing 被覆盖
+ * 自定义的全局通用样式
  */
-html {
-    box-sizing: border-box;
+.shadow-basic {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04)
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-body {
-    font: 14px/150% "Microsoft Yahei", Arial, Verdana, "\5b8b\4f53"; /* 宋体，Unicode，统一码 */
-    color: #555;
-    background-color: #f0f2f5;
-}
-
-.clearfix:before, .clearfix:after {
-    content: "";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1; /* IE/7/6 */
-}
-
-h1, h2, h3, h4, h5, h6 {
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 100%;
-}
-
-s, i, em, a {
-    font-style: normal;
-    text-decoration: none;
-}
-
-a {
-    outline: 0;
-    border: none;
+.shadow-light {
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
 }

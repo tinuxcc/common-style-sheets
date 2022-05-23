@@ -1,0 +1,344 @@
+/* display */
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+/* 浮动 */
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-none {
+    float: none;
+}
+
+/* 溢出 */
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* 定位 */
+.static {
+    position: static;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+/* Flex 用于控制 flex 项目放大和缩小的功能类 */
+.flex-1 {
+    flex: 1 1 0;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+}
+
+.flex-initial {
+    flex: 0 1 auto;
+}
+
+.flex-none {
+    flex: none;
+}
+
+/* Flex Grow 控制 flex 项目放大的功能类 */
+.flex-grow-0 {
+    flex-grow: 0;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+/* Flex Shrink 控制 flex 项目缩小的功能类 */
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink {
+    flex-shrink: 1;
+}
+
+/* Justify Content 用于控制 flex 和 grid 项目如何沿着容器的主轴定位的功能类 */
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+/* Justify Items 用于控制网格项目如何沿其内联轴对齐的功能类 */
+.justify-items-start {
+    justify-items: start;
+}
+
+.justify-items-end {
+    justify-items: end;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.justify-items-stretch {
+    justify-items: stretch;
+}
+
+/* Justify Self 用于控制单个网格项如何沿其内联轴对齐的功能类 */
+.justify-self-auto {
+    justify-self: auto;
+}
+
+.justify-self-start {
+    justify-self: start;
+}
+
+.justify-self-end {
+    justify-self: end;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.justify-self-stretch {
+    justify-self: stretch;
+}
+
+/* Align Items 用于控制 Flex 和网格项如何沿着容器的横轴定位的功能类 */
+.items-start {
+    align-items: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-baseline {
+    align-items: baseline;
+}
+
+.items-stretch {
+    align-items: stretch;
+}
+
+/* 字体粗细 */
+.font-thin {
+    font-weight: 100;
+}
+
+.font-extralight {
+    font-weight: 200;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+.font-black {
+    font-weight: 900;
+}
+
+/* 文本对齐 */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* 文本装饰 */
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* 文本溢出 */
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.overflow-ellipsis {
+    text-overflow: ellipsis;
+}
+
+.overflow-clip {
+    text-overflow: clip;
+}
+
+/* 垂直对齐 */
+.align-baseline {
+    vertical-align: baseline;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.align-bottom {
+    vertical-align: bottom;
+}
+
+.align-text-top {
+    vertical-align: text-top;
+}
+
+.align-text-bottom {
+    vertical-align: text-bottom;
+}
+
+/* 边框圆角 */
+.rounded-none {
+    border-radius: 0;
+}
+
+.rounded-sm {
+    border-radius: 0.125rem;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.rounded-xl {
+    border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+    border-radius: 1rem;
+}
+
+.rounded-3xl {
+    border-radius: 1.5rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
